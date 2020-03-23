@@ -1,0 +1,155 @@
+{
+	"section": [
+		{
+			"type": "image",
+			"key": "splash",
+			"url": "assets/sprites/splash.png"
+		},
+		{
+			"type": "image",
+			"key": "background",
+			"url": "assets/sprites/1_Background_Plain.png"
+		},
+		{
+			"type": "image",
+			"key": "instruction",
+			"url": "assets/sprites/Instructions.png"
+		},
+		{
+			"type": "image",
+			"key": "play-btn",
+			"url": "assets/sprites/play.png"
+		},
+		{
+			"type": "image",
+			"key": "printer",
+			"url": "assets/sprites/printer.png"
+		},
+		{
+			"type": "image",
+			"key": "score-panel",
+			"url": "assets/sprites/score_bg.png"
+		},
+		{
+			"type": "image",
+			"key": "white",
+			"url": "assets/sprites/11_Page1.png"
+		},
+		{
+			"type": "image",
+			"key": "green",
+			"url": "assets/sprites/12_Page2.png"
+		},
+		{
+			"type": "image",
+			"key": "yellow",
+			"url": "assets/sprites/13_Page3.png"
+		},
+		{
+			"type": "image",
+			"key": "red",
+			"url": "assets/sprites/14_Page4.png"
+		},
+		{
+			"type": "image",
+			"key": "blue",
+			"url": "assets/sprites/15_Page5.png"
+		},
+		{
+			"type": "image",
+			"key": "tick-btn",
+			"url": "assets/sprites/2_Right button.png"
+		},
+		{
+			"type": "image",
+			"key": "tick-sprite-btn",
+			"url": "assets/sprites/3_RightIcon.png"
+		},
+		{
+			"type": "image",
+			"key": "tick-sprite-red-btn",
+			"url": "assets/sprites/RightIcon_red.png"
+		},
+		{
+			"type": "image",
+			"key": "tick-sprite-green-btn",
+			"url": "assets/sprites/RightIcon_green.png"
+		},
+		{
+			"type": "image",
+			"key": "cross-btn",
+			"url": "assets/sprites/4_Wrong button.png"
+		},
+		{
+			"type": "image",
+			"key": "cross-sprite-btn",
+			"url": "assets/sprites/5_WrongIcon.png"
+		},
+		{
+			"type": "image",
+			"key": "cross-sprite-green-btn",
+			"url": "assets/sprites/WrongIcon_green.png"
+		},
+		{
+			"type": "image",
+			"key": "cross-sprite-red-btn",
+			"url": "assets/sprites/WrongIcon_red.png"
+		},
+		{
+			"type": "image",
+			"key": "divider",
+			"url": "assets/sprites/6_Button divider.png"
+		},
+		{
+			"type": "image",
+			"key": "objective-label",
+			"url": "assets/sprites/quetion.png"
+		},
+		{
+			"type": "image",
+			"key": "question-text",
+			"url": "assets/sprites/7_text color_Shape.png"
+		},
+		{
+			"type": "image",
+			"key": "question-background",
+			"url": "assets/sprites/8_background color_Shape.png"
+		},
+		{
+			"type": "image",
+			"key": "panel",
+			"url": "assets/sprites/18_End Score.png"
+		},
+		{
+			"type": "image",
+			"key": "end-screen",
+			"url": "assets/sprites/EndScreen.png"
+		},
+		{
+			"type": "audio",
+			"key": "success",
+			"urls": [
+				"assets/sounds/success.mp3"
+			]
+		},
+		{
+			"type": "audio",
+			"key": "wrong",
+			"urls": [
+				"assets/sounds/wrong.mp3"
+			]
+		},
+		{
+			"type": "audio",
+			"key": "printing",
+			"urls": [
+				"assets/sounds/printing.mp3"
+			]
+		},
+		{
+			"type": "script",
+			"key": "webfont",
+			"url": "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+		}
+	]
+}
