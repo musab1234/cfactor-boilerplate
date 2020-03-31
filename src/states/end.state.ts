@@ -5,8 +5,10 @@ export class EndState extends Phaser.State {
 	accuracy: number = 0;
 
 	init(data) {
-		this.score = data.score || 0;
-		this.accuracy = data.accuracy || 0;
+		if(data){
+			this.score = data.score || 0;
+			this.accuracy = data.accuracy || 0;
+		}
 	}
 
 	end() {

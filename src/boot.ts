@@ -20,5 +20,17 @@ export class Boot extends Phaser.State {
 			}
 		};
 		window['WebFont'].load(WebFontConfig);
+
+		window.onresize = () => {
+            this.changeScale();
+        };
+	}
+
+	changeScale() {
+        if (window.innerWidth <= 450 || window.outerWidth <= 450) {
+            this.scale.scaleMode = Phaser.ScaleManager.EXACT_FIT;
+        } else {
+            this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+		}
 	}
 }
